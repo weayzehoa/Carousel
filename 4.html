@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword" content="PHP, MySQL, AJAX, HTML5, CSS3, JavaScript, JQuery, JQuery Moblie, JQM, Bootstrap, Roger Wu, 吳偉召, 網頁設計, 數位設計工作室">
+	<meta name="Description" content="這是我自己練習的檔案, 圖片版權歸屬原作者, 如有冒犯, 請告知移除">
+	<meta name="author" content="吳偉召網站設計師-0928589779">
+    <title>各種輪播效果-非覆蓋型3</title>
+    
+    <!-- 載入共用的css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- 載入JQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- 直接使用官網的方式 -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div id="head">
+        非覆蓋型<br>
+        說明：1. 一開始直接隨機顯示一張照片, 每五秒自動顯示下一張照片, 從右邊滑動進來.<br>
+        　　　2. 按左邊粉紅色區域, 下一張照片會從右邊滑動進來. 按右邊粉紅色區域, 上一張照片從左邊滑動進來.<br>
+        　　　3. 中間按鈕選單, 按了按鈕顯示區選定的圖片會從右邊滑入.<br>
+        　　　4. 這頁面加上下方圖片選單, 按了圖片顯示區會從左邊滑入.
+
+    </div>
+    <div id="tpmenu"></div>
+    <div id="content">
+            <div id="l_btn">按這區域可以更換下一張圖案</div>
+            <div id="r_btn">按這區域可以更換上一張圖案</div>
+        <div id="showpic">
+            <div id="p1">我是主要顯示圖案區域</div>
+            <div id="p2">我是用來當動畫, 移動覆蓋主要顯示圖案區域, 預設應為隱藏不顯示</div>
+        </div>
+    </div>
+    <div id="mmenu">
+        <div id="mmenu_btn"></div>
+    </div>
+    <div id="btmenu">
+        <div id="btmenu_pic"></div>
+    </div>
+    <div id="foot">HTML, CSS, JavaScript & JQuery 練習, Made By Roger Wu, 2018 (c) 版權沒有, 歡迎參考</div>
+
+</body>
+</html>
+
+<!-- 載入自己寫的JS -->
+<script src="js/carousel-noncover.js"></script>

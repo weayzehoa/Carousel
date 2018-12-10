@@ -1,1 +1,2 @@
-Carousel
+Carousel (廣告輪播練習)
+這是我在職訓期間製作的廣告輪播練習, 全部以JQuery方式撰寫.
